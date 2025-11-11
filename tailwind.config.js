@@ -7,12 +7,15 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['Inter', 'system-ui', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'sans-serif'],
-        geist: ['Geist', 'system-ui', 'sans-serif'],
-        'geist-mono': ['Geist Mono', 'monospace'],
-        mona: ['Mona Sans', 'system-ui', 'sans-serif'],
-        'ibm-plex': ['IBM Plex Sans', 'system-ui', 'sans-serif'],
-        manrope: ['Manrope', 'system-ui', 'sans-serif'],
+        sans: ['Lato', 'system-ui', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'sans-serif'],
+        serif: ['Playfair Display', 'serif'],
+      },
+      colors: {
+        brand: {
+          pink: '#f7d6e6',
+          rose: '#db2777',
+          gold: '#e4c580'
+        }
       },
       animation: {
         'fade-in': 'fadeIn 0.5s ease-in-out',
